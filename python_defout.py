@@ -129,3 +129,25 @@ random.random()
 random.randint(1,10)
 #1,10사이의 정수 중 난수 값을 돌려준다.
 
+random.choice(data)
+#입력으로 받은 리스트에서 무작위로 하나를 선택해 돌려준다.
+
+random.shuffle(data)
+#리스트의 항목을 무작위로 섞고 싶을때 사용
+
+###webbrowser
+#자신의 시스템에서 사용하는 기본 웹 브라우저를 자동으로 실행하는 모듈
+
+import webbrowser
+webbrowser.open("http://google.com")
+#구글 열기
+webbrowser.open_new("http://google.com")
+#새창에서 열기
+
+##threading모듈
+#스레드 프로그램시 필요
+
+t=threading.Thread(target=def)
+#스레드 생성
+t.join()
+#스레드가 종료될때까지 기다린다.
