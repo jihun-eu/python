@@ -1,5 +1,5 @@
 ##사용자 입력 input()
-a=inpua1t()
+a=input()
 
 ##print
 for i in range(10):
